@@ -1,0 +1,50 @@
+🛠️ Mini Proyecto: “Mi Portafolio Versionado”
+Objetivo: Simular un flujo real de trabajo con Git usando ramas, commits, merges y manejo de versiones.
+
+📁 Estructura del proyecto:
+Crea una carpeta llamada mi-portafolio con al menos estos archivos:
+
+index.html
+about.html
+contact.html
+style.css
+README.md
+
+🔧 Pasos del ejercicio:
+Inicializa el repositorio:
+
+bash
+Copy
+Edit
+git init
+Crea tu rama principal (main) y haz tu primer commit con la estructura básica.
+
+Crea una rama dev:
+Desde dev, agrega contenido inicial en index.html.
+Crea commits pequeños con cada cambio que hagas (título, párrafo, imagen, etc.).
+
+Crea una rama feature/contacto:
+Agrega el contenido de contact.html.
+Haz al menos 2-3 commits en esta rama.
+Luego haz merge hacia dev.
+
+Agrega estilo CSS desde otra rama feature/estilos.
+Crea y edita style.css, vincúlalo en las páginas.
+Haz merge hacia dev.
+
+Haz un merge de dev a main cuando esté listo todo.
+Simula un bug-fix:
+Crea una rama hotfix/footer desde main.
+Agrega o corrige un footer en las páginas.
+Haz merge de vuelta a main y también a dev.
+
+✅ Qué deberías practicar:
+Crear y cambiar entre ramas (git branch, git checkout, git switch)
+Añadir cambios y hacer commits (git add, git commit)
+Hacer merges (git merge)
+Ver historial (git log, git log --oneline --graph)
+Resolver conflictos si se presentan
+Crear y editar un .gitignore
+Usar git status y git diff
+
+¿Quieres que lo adaptemos también para subirlo a GitHub y practicar git push, git remote, etc.?
